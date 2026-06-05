@@ -1,25 +1,39 @@
 version: 1
+extends:
+- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.2.0/nexus.yml
+- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
+
 project:
+  id: isp-2026-teacher-residuals-recovery
   title: "Teacher-guided corrective residuals support reflex-like recovery in simulated locomotion"
-  description: "A Neuromatch Impact Scholars micropublication from Team RNNematode."
+  github: https://github.com/impact-scholars/2026-teacher-residuals-recovery
+
   keywords:
     - motor control
     - cerebellum
     - reinforcement learning
     - BrainCAD
+
   authors:
-    - name: "Andres de Vicente"
+    - name: "Andrés de Vicente"
       orcid: "https://orcid.org/0000-0003-4995-4473"
+      equal-contributor: true
       affiliations:
         - "Neuromatch Impact Scholars Program, Team RNNematode"
     - name: "Renee Vieira"
+      equal-contributor: true
       affiliations:
         - "Neuromatch Impact Scholars Program, Team RNNematode"
     - name: "Charlie Hou"
+      equal-contributor: true
       affiliations:
         - "Neuromatch Impact Scholars Program, Team RNNematode"
+
+  toc:
+    - file: index.md
+
   bibliography:
-    - references.bib
-  license: "CC-BY-4.0"
+    - myst_submission/references.bib
+
 site:
-  template: book-theme
+  template: https://raw.githubusercontent.com/impact-scholars/myst-theme/v0.2.0/.deploy/book/template.yml
