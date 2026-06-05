@@ -1,0 +1,28 @@
+method_key,method_label,category,sweep_type,metric,baseline_method,delta_vs_baseline,relative_delta_vs_baseline_pct,better_direction,causal_delta_on_minus_off,causal_n
+bg_gate_residual,Cortex+Residual + BG gate,rl_only,push,fall,mlp_ppo,0.2006944444444445,25.108601216333632,lower,0.0,1
+cortex_residual_rl,Cortex+Residual (RL-only),rl_only,push,fall,mlp_ppo,0.0629629629629631,7.877208224732136,lower,-0.0097222222222221,1
+curriculum_residual,Cortex+Residual + curriculum,rl_only,push,fall,mlp_ppo,0.0506944444444444,6.342311033883584,lower,0.0,1
+imitation,Teacher-guided cortex+cerebellum imitation,supervised,push,fall,mlp_ppo,-0.1881944444444443,-23.54474370112944,lower,-0.2608796296296296,3
+imitation_finetune,"Imitation + PPO fine-tune (lite, seed0)",supervised,push,fall,mlp_ppo,-0.2493055555555555,-31.190269331016513,lower,-0.1125,1
+mlp_ppo,MLP PPO (nominal training),baseline,push,fall,mlp_ppo,0.0,0.0,lower,,0
+sc_ncap,SC-NCAP (gain gating),rl_only,push,fall,mlp_ppo,0.1752314814814817,21.922965537214047,lower,,0
+spinal_static,Spinal NCAP (g=1),rl_only,push,fall,mlp_ppo,0.2006944444444445,25.108601216333632,lower,,0
+stability_aux_residual,Cortex+Residual + BG + stability aux,rl_only,push,fall,mlp_ppo,0.2006944444444445,25.108601216333632,lower,0.0,1
+bg_gate_residual,Cortex+Residual + BG gate,rl_only,sensor,fall,mlp_ppo,0.1458333333333332,24.13793103448274,lower,0.0,1
+cortex_residual_rl,Cortex+Residual (RL-only),rl_only,sensor,fall,mlp_ppo,-0.0208333333333333,-3.448275862068971,lower,0.0,1
+curriculum_residual,Cortex+Residual + curriculum,rl_only,sensor,fall,mlp_ppo,0.1458333333333332,24.13793103448274,lower,0.0,1
+imitation,Teacher-guided cortex+cerebellum imitation,supervised,sensor,fall,mlp_ppo,-0.4583333333333335,-75.86206896551725,lower,-0.4375,3
+imitation_finetune,"Imitation + PPO fine-tune (lite, seed0)",supervised,sensor,fall,mlp_ppo,-0.4791666666666667,-79.3103448275862,lower,-0.5625,1
+mlp_ppo,MLP PPO (nominal training),baseline,sensor,fall,mlp_ppo,0.0,0.0,lower,,0
+sc_ncap,SC-NCAP (gain gating),rl_only,sensor,fall,mlp_ppo,0.3333333333333332,55.17241379310343,lower,,0
+spinal_static,Spinal NCAP (g=1),rl_only,sensor,fall,mlp_ppo,0.3958333333333332,65.51724137931033,lower,,0
+stability_aux_residual,Cortex+Residual + BG + stability aux,rl_only,sensor,fall,mlp_ppo,0.0208333333333332,3.448275862068953,lower,-0.1875,1
+bg_gate_residual,Cortex+Residual + BG gate,rl_only,slip,fall,mlp_ppo,0.8944444444444445,847.368421052632,lower,0.0,1
+cortex_residual_rl,Cortex+Residual (RL-only),rl_only,slip,fall,mlp_ppo,0.4811111111111111,455.7894736842108,lower,-0.0213888888888889,1
+curriculum_residual,Cortex+Residual + curriculum,rl_only,slip,fall,mlp_ppo,-0.1055555555555555,-100.0,lower,0.0,1
+imitation,Teacher-guided cortex+cerebellum imitation,supervised,slip,fall,mlp_ppo,-0.1055555555555555,-100.0,lower,-0.6080555555555556,3
+imitation_finetune,"Imitation + PPO fine-tune (lite, seed0)",supervised,slip,fall,mlp_ppo,-0.1055555555555555,-100.0,lower,-0.296111111111111,1
+mlp_ppo,MLP PPO (nominal training),baseline,slip,fall,mlp_ppo,0.0,0.0,lower,,0
+sc_ncap,SC-NCAP (gain gating),rl_only,slip,fall,mlp_ppo,0.8240740740740741,780.7017543859653,lower,,0
+spinal_static,Spinal NCAP (g=1),rl_only,slip,fall,mlp_ppo,0.8944444444444445,847.368421052632,lower,,0
+stability_aux_residual,Cortex+Residual + BG + stability aux,rl_only,slip,fall,mlp_ppo,0.8944444444444445,847.368421052632,lower,0.0,1

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="36.0" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#1f2428">Cross-environment fall reduction summary</text>
+<text x="490.0" y="542.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#5f6c72">Exploratory cross-body summary; higher means fewer falls</text>
+<line x1="95" x2="935" y1="455.0" y2="455.0" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="460.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">-0.2</text>
+<line x1="95" x2="935" y1="391.7" y2="391.7" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="396.7" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">0</text>
+<line x1="95" x2="935" y1="328.3" y2="328.3" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="333.3" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">0.2</text>
+<line x1="95" x2="935" y1="265.0" y2="265.0" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="270.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">0.4</text>
+<line x1="95" x2="935" y1="201.7" y2="201.7" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="206.7" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">0.6</text>
+<line x1="95" x2="935" y1="138.3" y2="138.3" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="143.3" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">0.8</text>
+<line x1="95" x2="935" y1="75.0" y2="75.0" stroke="#ded8cd" stroke-width="1"/>
+<text x="83.0" y="80.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="end" fill="#445057">1</text>
+<line x1="95" x2="935" y1="391.7" y2="391.7" stroke="#1f2428" stroke-width="1.6"/>
+<line x1="95" x2="95" y1="75" y2="455" stroke="#1f2428" stroke-width="1.5"/>
+<text x="24.0" y="265.0" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" transform="rotate(-90 24 265.0)" fill="#1f2428">fall-AUC reduction</text>
+<text x="200.0" y="495.0" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#1f2428">Ant-v4</text>
+<rect x="160.0" y="134.0" width="65.6" height="257.7" fill="#2b7bba"/>
+<line x1="192.8" x2="192.8" y1="126.3" y2="141.7" stroke="#1f2428" stroke-width="2"/>
+<line x1="184.8" x2="200.8" y1="126.3" y2="126.3" stroke="#1f2428" stroke-width="2"/>
+<line x1="184.8" x2="200.8" y1="141.7" y2="141.7" stroke="#1f2428" stroke-width="2"/>
+<text x="410.0" y="495.0" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#1f2428">Hopper-v4</text>
+<rect x="370.0" y="345.0" width="65.6" height="46.6" fill="#2b7bba"/>
+<line x1="402.8" x2="402.8" y1="324.3" y2="365.8" stroke="#1f2428" stroke-width="2"/>
+<line x1="394.8" x2="410.8" y1="324.3" y2="324.3" stroke="#1f2428" stroke-width="2"/>
+<line x1="394.8" x2="410.8" y1="365.8" y2="365.8" stroke="#1f2428" stroke-width="2"/>
+<text x="620.0" y="495.0" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#1f2428">Walker2d-v4</text>
+<rect x="580.0" y="216.6" width="65.6" height="175.1" fill="#2b7bba"/>
+<line x1="612.8" x2="612.8" y1="196.3" y2="236.9" stroke="#1f2428" stroke-width="2"/>
+<line x1="604.8" x2="620.8" y1="196.3" y2="196.3" stroke="#1f2428" stroke-width="2"/>
+<line x1="604.8" x2="620.8" y1="236.9" y2="236.9" stroke="#1f2428" stroke-width="2"/>
+<text x="830.0" y="495.0" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#1f2428">Humanoid-v4</text>
+<rect x="790.0" y="277.2" width="65.6" height="114.4" fill="#2b7bba"/>
+<line x1="822.8" x2="822.8" y1="252.0" y2="302.5" stroke="#1f2428" stroke-width="2"/>
+<line x1="814.8" x2="830.8" y1="252.0" y2="252.0" stroke="#1f2428" stroke-width="2"/>
+<line x1="814.8" x2="830.8" y1="302.5" y2="302.5" stroke="#1f2428" stroke-width="2"/>
+<rect x="675" y="76" width="18" height="14" fill="#2b7bba"/>
+<text x="703.0" y="88.0" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1f2428">imitation ON-OFF</text>
+</svg>

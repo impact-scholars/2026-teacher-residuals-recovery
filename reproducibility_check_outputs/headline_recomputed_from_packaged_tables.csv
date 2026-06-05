@@ -1,0 +1,13 @@
+comparison,metric,sweep_type,mean,ci_low,ci_high,n
+imitation_on_minus_off,fall,push,-0.312535,-0.491009,-0.14708,
+imitation_on_minus_off,fall,sensor,-0.446875,-0.553203,-0.3375,
+imitation_on_minus_off,fall,slip,-0.324764,-0.511488,-0.155395,
+imitation_on_minus_off,return,push,58.7624,27.6005,88.4453,
+imitation_on_minus_off,return,sensor,103.61,82.7125,123.475,
+imitation_on_minus_off,return,slip,61.3569,27.3644,91.6113,
+consolidated_minus_baseline,fall,push,-0.31066,-0.487848,-0.145903,
+consolidated_minus_baseline,fall,sensor,-0.40625,-0.509375,-0.30625,
+consolidated_minus_baseline,fall,slip,-0.316292,-0.495569,-0.148999,
+consolidated_minus_baseline,return,push,59.2179,27.47,88.7199,
+consolidated_minus_baseline,return,sensor,86.3541,65.2258,106.575,
+consolidated_minus_baseline,return,slip,61.2316,26.9483,91.7662,

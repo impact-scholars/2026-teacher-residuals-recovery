@@ -1,0 +1,25 @@
+version: 1
+project:
+  title: "Teacher-guided corrective residuals support reflex-like recovery in simulated locomotion"
+  description: "A Neuromatch Impact Scholars micropublication from Team RNNematode."
+  keywords:
+    - motor control
+    - cerebellum
+    - reinforcement learning
+    - BrainCAD
+  authors:
+    - name: "Andres de Vicente"
+      orcid: "https://orcid.org/0000-0003-4995-4473"
+      affiliations:
+        - "Neuromatch Impact Scholars Program, Team RNNematode"
+    - name: "Renee Vieira"
+      affiliations:
+        - "Neuromatch Impact Scholars Program, Team RNNematode"
+    - name: "Charlie Hou"
+      affiliations:
+        - "Neuromatch Impact Scholars Program, Team RNNematode"
+  bibliography:
+    - references.bib
+  license: "CC-BY-4.0"
+site:
+  template: book-theme

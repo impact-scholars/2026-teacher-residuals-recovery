@@ -1,0 +1,17 @@
+env,source,metric,mean,sem,n,note
+Ant-v4,consolidated_minus_baseline,fall,-0.7775462962962963,0.0450200239323535,3,Cross-environment replication summary
+Ant-v4,consolidated_minus_baseline,return,-3.953231430103491,1.1193183498193793,3,Cross-environment replication summary
+Ant-v4,imitation_on_minus_off,fall,-0.8136574074074074,0.0243284173785878,3,Cross-environment replication summary
+Ant-v4,imitation_on_minus_off,return,-4.473115524157442,1.057095819024843,3,Cross-environment replication summary
+Hopper-v4,consolidated_minus_baseline,fall,-0.1328703703703703,0.0668416556295373,3,Cross-environment replication summary
+Hopper-v4,consolidated_minus_baseline,return,-15.659080149205751,0.2633918574314037,3,Cross-environment replication summary
+Hopper-v4,imitation_on_minus_off,fall,-0.1472222222222221,0.0656118324042266,3,Cross-environment replication summary
+Hopper-v4,imitation_on_minus_off,return,-15.593482371530053,0.2147156071310305,3,Cross-environment replication summary
+Walker2d-v4,consolidated_minus_baseline,fall,-0.552951388888889,0.0640966798811371,3,Cross-environment replication summary
+Walker2d-v4,consolidated_minus_baseline,return,254.1618480694219,1.4057151686702976,3,Cross-environment replication summary
+Walker2d-v4,imitation_on_minus_off,fall,-0.552951388888889,0.0640966798811371,3,Cross-environment replication summary
+Walker2d-v4,imitation_on_minus_off,return,252.32647105823244,0.9949491832713208,3,Cross-environment replication summary
+Humanoid-v4,imitation_on_minus_off,fall,-0.3613912037037037,0.07970653343693597,20,"Humanoid default predefined severity sweep, N=20"
+Humanoid-v4,imitation_on_minus_off,return,74.57638089634314,14.408964912355472,20,"Humanoid default predefined severity sweep, N=20"
+Humanoid-v4,consolidated_minus_baseline,fall,-0.3444004629629629,0.07810903504806004,20,"Humanoid default predefined severity sweep, N=20"
+Humanoid-v4,consolidated_minus_baseline,return,68.93451331552312,14.599903003051244,20,"Humanoid default predefined severity sweep, N=20"

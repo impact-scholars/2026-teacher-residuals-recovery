@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "package_root": ".",
+  "checked_files": [
+    "derived_tables/humanoid20_key_results.csv",
+    "derived_tables/cross_environment_summary_micropublication.csv",
+    "derived_tables/morphology_vs_benefit.csv",
+    "video_index/representative_video_index.csv",
+    "Figures/RNNematode-Figures.svg"
+  ],
+  "headline_rows": 12,
+  "video_index_rows": 48,
+  "outputs": [
+    "reproducibility_check_outputs/headline_recomputed_from_packaged_tables.csv"
+  ],
+  "note": "This check validates packaged result artifacts only; it does not retrain policies."
+}
