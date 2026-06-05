@@ -44,7 +44,7 @@ $$u_t = \mathrm{clip}(u_t^{ctx} + \alpha_t \Delta u_t, u_{min}, u_{max}),$$
 
 where $\alpha_t \in [0,1]$ is an optional engagement gate. A later consolidation step removes the residual machinery by training a new cortex to imitate the final action directly.
 
-```{figure} figures/RNNematode-Figures.svg
+```{figure} myst_submission/figures/RNNematode-Figures.svg
 :name: fig-main
 :width: 100%
 

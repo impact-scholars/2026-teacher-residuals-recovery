@@ -58,7 +58,7 @@ Generated outputs are written to:
 - `RNNematode-Micropublication.pdf`: short micropublication.
 - `report/RNNematode-TechnicalReport.pdf`: longer technical report with equations and controls.
 - `RNNematode-Micropublication.tex`: LaTeX source for the short paper.
-- `myst_submission/index.md`: MyST Markdown source.
+- `index.md`: MyST Markdown source.
 - `Figures/RNNematode-Figures.svg`: main figure sheet.
 - `Figures/RNNematode-Supplementary-Figures.svg`: supplementary checks.
 - `derived_tables/`: saved CSV summaries used by the figures and report.
