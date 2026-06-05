@@ -35,5 +35,3 @@ project:
   bibliography:
     - myst_submission/references.bib
 
-site:
-  template: https://raw.githubusercontent.com/impact-scholars/myst-theme/v0.2.0/.deploy/book/template.yml
