@@ -5,7 +5,7 @@ abstract: |
 acknowledgments: |
   This work was developed as part of the Neuromatch Impact Scholars Program by Team RNNematode. We thank Raymond Chua for senior mentorship, scientific guidance, and feedback on motor-control framing. We also acknowledge the BrainCAD/NCAP software infrastructure used for circuit templates, MuJoCo wrappers, evaluation, and video export.
 data_availability: |
-  The submitted code package includes notebooks that reproduce the main figure from saved result artifacts, validation tables, and instructions for accessing the saved BrainCAD/ReflexBench results. The public repository is available at https://github.com/andrestrocyte/rnnematode-micropublication.
+  The submitted code package includes notebooks that reproduce the main figure from saved result artifacts, validation tables, and instructions for accessing the saved BrainCAD/ReflexBench results. Published via [Impact Scholars](https://github.com/impact-scholars/2026-teacher-residuals-recovery); original [development repository](https://github.com/andrestrocyte/rnnematode-micropublication).
 ---
 
 
