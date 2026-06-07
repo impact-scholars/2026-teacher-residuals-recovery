@@ -21,3 +21,5 @@ __pycache__/
 
 # Keep the submitted code archive tracked
 !RNNematode_micropublication_code.zip
+
+_build
