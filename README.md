@@ -1,3 +1,10 @@
+> **Archival Notice**  
+> This repository is the **permanent archival publication record** for an
+> Impact Scholars Program micropublication. The original development
+> repository is at 
+> **https://github.com/andrestrocyte/rnnematode-micropublication**  
+> This archive preserves the version of record as accepted for publication.
+
 # Teacher-guided corrective residuals in BrainCAD locomotion
 
 This repository contains the public reproducibility package for a Neuromatch Impact Scholars micropublication by Team RNNematode. The project asks a narrow motor-control question: when a simulated animal is pushed, slipped, or sensor-corrupted, does a biologically inspired corrective circuit help by architecture alone, or does it need a structured teaching signal?
