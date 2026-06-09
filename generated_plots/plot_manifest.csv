@@ -1,0 +1,5 @@
+plot,source_tables
+generated_plots/cross_environment_fall_reduction.svg,derived_tables/*.csv
+generated_plots/humanoid_fall_auc_reduction.svg,derived_tables/*.csv
+generated_plots/humanoid_return_auc_gain.svg,derived_tables/*.csv
+generated_plots/teacher_quality_fall_reduction.svg,derived_tables/*.csv

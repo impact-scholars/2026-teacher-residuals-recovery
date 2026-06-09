@@ -1,24 +1,25 @@
-# MyST build outputs
-_build/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-env/
-venv/
-.venv/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS
+# OS/editor
 .DS_Store
-Thumbs.db
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Keep the submitted code archive tracked
+!RNNematode_micropublication_code.zip
+
+_build

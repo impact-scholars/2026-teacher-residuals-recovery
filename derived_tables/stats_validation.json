@@ -1,0 +1,65 @@
+{
+  "humanoid20_all_key_rows_n20": true,
+  "humanoid20_imitation_fall_ci_excludes_zero": {
+    "push": true,
+    "sensor": true,
+    "slip": true
+  },
+  "humanoid20_consolidated_fall_ci_excludes_zero": {
+    "push": true,
+    "sensor": true,
+    "slip": true
+  },
+  "perturbation_sanity": {
+    "humanoid": {
+      "control_event_rates_zero": true,
+      "push_force_on_gt_off": true,
+      "slip_friction_active_lower": true,
+      "sensor_obs_diff_active_gt_inactive": true
+    },
+    "walker2d": {
+      "control_event_rates_zero": true,
+      "push_force_on_gt_off": true,
+      "slip_friction_active_lower": true,
+      "sensor_obs_diff_active_gt_inactive": true
+    },
+    "ant": {
+      "control_event_rates_zero": true,
+      "push_force_on_gt_off": true,
+      "slip_friction_active_lower": true,
+      "sensor_obs_diff_active_gt_inactive": true
+    },
+    "hopper": {
+      "control_event_rates_zero": true,
+      "push_force_on_gt_off": true,
+      "slip_friction_active_lower": true,
+      "sensor_obs_diff_active_gt_inactive": true
+    }
+  },
+  "source_code_checks": {
+    "cerebellum_bound": true,
+    "imitation_target_delta": true,
+    "policy_action_composition": true,
+    "consolidation_uses_u_final": true
+  },
+  "representative_video_index_exists": true,
+  "representative_video_examples": [
+    "videos/20260422_000426/curated/humanoid/baseline_off/nominal.mp4",
+    "videos/20260422_000426/curated/humanoid/baseline_off/moderate.mp4",
+    "videos/20260422_000426/curated/humanoid/baseline_off/severe.mp4",
+    "videos/20260422_000426/curated/humanoid/imitation_off/nominal.mp4",
+    "videos/20260422_000426/curated/humanoid/imitation_off/moderate.mp4",
+    "videos/20260422_000426/curated/humanoid/imitation_off/severe.mp4",
+    "videos/20260422_000426/curated/humanoid/imitation_on/nominal.mp4",
+    "videos/20260422_000426/curated/humanoid/imitation_on/moderate.mp4",
+    "videos/20260422_000426/curated/humanoid/imitation_on/severe.mp4",
+    "videos/20260422_000426/curated/humanoid/consolidated_off/nominal.mp4",
+    "videos/20260422_000426/curated/humanoid/consolidated_off/moderate.mp4",
+    "videos/20260422_000426/curated/humanoid/consolidated_off/severe.mp4"
+  ],
+  "notes": [
+    "This validation reads saved artifacts only; it does not re-run training.",
+    "No invalidating issue was found in the checked equations, action-composition code, or perturbation sanity summaries.",
+    "The morphology scaling result remains exploratory: n=4 environments is not enough for a strong evolutionary scaling claim."
+  ]
+}
