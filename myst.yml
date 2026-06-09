@@ -9,31 +9,32 @@ project:
   github: https://github.com/impact-scholars/2026-teacher-residuals-recovery
 
   keywords:
-    - motor control
-    - cerebellum
-    - residual policy
-    - reinforcement learning
-    - locomotion
-    - reflexes
-    - BrainCAD
+  - motor control
+  - cerebellum
+  - residual policy
+  - reinforcement learning
+  - locomotion
+  - reflexes
+  - BrainCAD
 
   authors:
-    - name: "Andrés de Vicente"
-      orcid: "https://orcid.org/0000-0003-4995-4473"
-      equal-contributor: true
-      affiliations:
-        - "Neuromatch Impact Scholars Program, Team RNNematode"
-    - name: "Renee Vieira"
-      equal-contributor: true
-      affiliations:
-        - "Neuromatch Impact Scholars Program, Team RNNematode"
-    - name: "Charlie Hou"
-      equal-contributor: true
-      affiliations:
-        - "Neuromatch Impact Scholars Program, Team RNNematode"
+  - name: "Andrés de Vicente"
+    orcid: "https://orcid.org/0000-0003-4995-4473"
+    equal-contributor: true
+    affiliations:
+    - "Neuromatch Impact Scholars Program, Team RNNematode"
+  - name: "Renee Vieira"
+    equal-contributor: true
+    affiliations:
+    - "Neuromatch Impact Scholars Program, Team RNNematode"
+  - name: "Charlie Hou"
+    equal-contributor: true
+    affiliations:
+    - "Neuromatch Impact Scholars Program, Team RNNematode"
 
   toc:
-    - file: index.md
+  - file: index.md
 
   bibliography:
-    - myst_submission/references.bib
+  - myst_submission/references.bib
+  doi: 10.5281/zenodo.20614507
