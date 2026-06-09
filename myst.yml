@@ -11,7 +11,10 @@ project:
   keywords:
     - motor control
     - cerebellum
+    - residual policy
     - reinforcement learning
+    - locomotion
+    - reflexes
     - BrainCAD
 
   authors:
@@ -34,4 +37,3 @@ project:
 
   bibliography:
     - myst_submission/references.bib
-

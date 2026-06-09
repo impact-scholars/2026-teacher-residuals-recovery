@@ -5,7 +5,8 @@ root = Path(__file__).resolve().parents[1]
 required = [
     'RNNematode-Micropublication.pdf',
     'report/RNNematode-TechnicalReport.pdf',
-    'myst_submission/index.md',
+    'index.md',
+    'myst.yml',
     'RNNematode_micropublication_code.zip',
     'scripts/check_reproducibility.py',
 ]
