@@ -7,6 +7,11 @@ project:
   id: isp-2026-teacher-residuals-recovery
   title: "Teacher-guided corrective residuals support reflex-like recovery in simulated locomotion"
   github: https://github.com/impact-scholars/2026-teacher-residuals-recovery
+  options:
+    youtube: https://youtu.be/GHNo40Xe5J0?t=3600
+  downloads:
+  - title: Seminar Presentation
+    url: https://youtu.be/GHNo40Xe5J0?t=3600
 
   keywords:
   - motor control
